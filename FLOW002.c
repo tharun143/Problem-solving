@@ -1,3 +1,4 @@
+/*this code is for remainder of a problem in code chef problem FLOW003 */
 #include<stdio.h>
 int main()
 {
