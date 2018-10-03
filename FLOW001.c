@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main()
 {
+    // this is addittion code
     int i,n,a,b,c;
    
     scanf("%d",&n);
