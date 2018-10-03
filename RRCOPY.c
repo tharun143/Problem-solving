@@ -23,4 +23,4 @@ printf("%d\n",d);
 return 0;
 }
 
-
+// this code is related to code chef probs
