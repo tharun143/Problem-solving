@@ -16,8 +16,8 @@ for(i=0;i<m;i++)
 a[j]=1;
 }
 for(i=0;i<1000000;i++)
-if(a[i]==1)
-d++;
+  if(a[i]==1)
+    d++;
 printf("%d\n",d);
 }
 return 0;
