@@ -20,3 +20,4 @@ int main()
     }
     return 0;
 }
+// there are so many corner cases .. see and those codes too
