@@ -15,6 +15,7 @@ int main()
         }
         else if(h>50 && c<0.7)
         {
+            // grade trhe steel in code cxhef
             printf("9\n");
         }
         else if(c<0.7 && t>5600)
