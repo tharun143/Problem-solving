@@ -17,12 +17,15 @@
                     x[i]+=50;
                     y[i]+=50;
                     point[x[i]][y[i]]=1;
+                    //hai hello howrfsr
                 }
                 count=0;
                 for(i=0;i<n;i++)  {
                     for(j=0;j<n;j++)  {
+
                         if(i!=j)  {
         				
+                                //there is fjwei
                            d1=x[i],a1=y[i];
                            d2=x[j],a2=y[j];
                            
@@ -31,7 +34,7 @@
                            
                            d4=d2+a1-a2;
                            a4=a2+d2-d1;
-        				   
+        				 //output
                            
         if(z)
            count++;
