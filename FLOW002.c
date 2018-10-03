@@ -3,7 +3,7 @@
 int main()
 {
     int i,n,a,b,c;
-   
+   // it gives remainder right?
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
