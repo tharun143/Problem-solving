@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main()
 {
+    // thius is for sum of digits
     int t,i,a,s,n;
     scanf("%d",&t);
     for(i=1;i<=t;i++)
