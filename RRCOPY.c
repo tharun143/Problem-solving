@@ -1,4 +1,5 @@
 /* this code is for Copy-Paste in code chef problem no RRCOPY*/ 
+/* hi tharun*/
 #include<stdio.h>
 int main()
 {
