@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main()
 {
+    //this code is for id and ship problem
     int i,n;
     char a;
    
