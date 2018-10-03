@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main()
 {
+    // what if we use same variables
     int i,n,a,b,c;
    
     scanf("%d",&n);
