@@ -9,6 +9,9 @@
     	return x;
     }
      
+
+
+// okay okay
     int main(){
     	long long int t,a,b,c,d,e,f,l,r,x,i,k=6;
     	long long int result;
