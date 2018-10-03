@@ -4,6 +4,7 @@
     #define ll long long
     int main()
     {
+        // ok good but for what
     	int m,h;
     	ll s,a,b;
     	scanf("%d",&m);
