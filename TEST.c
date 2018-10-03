@@ -1,5 +1,5 @@
 /* this code is for Life ,The Universe and Everything */
-
+// this problem is very easy
 #include<stdio.h>
 int main()
 {
