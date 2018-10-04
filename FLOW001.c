@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main()
 {
+    // fasak
     int i,n,a,b,c;
    
     scanf("%d",&n);
