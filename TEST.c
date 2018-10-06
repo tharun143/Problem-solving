@@ -13,6 +13,9 @@ printf("%d\n",b);
 }
 else
 break;
+  
+  
+  
 }
 return 0;
 }
