@@ -1,0 +1,99 @@
+//author:satwik_bhv1
+#include<bits/stdc++.h>
+//datatypes
+#define ll long long
+#define ld long double
+//loops
+#define fr(i,z,n) for(ll i=z;i<n;i++)
+#define br(i,z,n) for(ll i=z;i>n;i--)
+//operations
+#define mp  make_pair
+#define ff 	first
+#define ss 	second
+#define pub push_back
+#define puf push_front
+#define pob pop_back
+#define pof pop_front
+//deque
+#define dki deque <ll>
+#define dkc deque <char>
+//map
+#define mi map<ll, ll>
+#define mf map<ld, ld>
+//vectors
+#define vi vector<ll>
+#define vc vector<char>
+#define vpi vector< pair <ll,ll> >
+#define vpc vector<pair <char,char> > 
+#define vpic vector<pair <ll,char> > 
+#define vpci vector<pair <char,ll> > 
+//constants
+#define pi 3.1415926535897932384626
+#define mod  998244353
+#define llmax 9223372036854775807
+#define llmin -9223372036854775808
+/*notes
+	range of longlong=(-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 )
+	INT_MAX = 2147483647
+	INT_MIN = -2147483648
+*/
+//start
+using namespace std;
+//functions
+void fast() { ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); }
+bool sortbysec(const pair<ll, ll>& a, const pair<ll, ll>& b) { return (a.second < b.second); }
+int main()
+{
+	fast();
+	ll t;
+	cin >> t;
+	lbl:while (t--)
+	{
+		ll n;
+		cin >> n;
+		vi a, c;
+		fr(i, 0, n)
+		{
+			ll o;
+			cin >> o;
+			a.pub(o);
+		}
+		fr(i, 0, n)
+		{
+			ll o;
+			cin >> o;
+			c.pub(o);
+		}
+		vi b(n + 1,0);
+		fr(i, 0, n)
+		{
+			ll l = max(i - a[i], (ll)0);
+			ll r = min(i + a[i], n - 1);
+			b[l]++;
+			b[r + 1]--;
+		}
+		fr(i, 0, a.size())
+		{
+			if (i == 0)
+			{
+				a[i] = b[i];
+			}
+			else
+			{
+				a[i] = b[i] + a[i - 1];
+			}
+		}
+		sort(a.begin(), a.end());
+		sort(c.begin(), c.end());
+		fr(i, 0, n)
+		{
+			if (a[i] != c[i])
+			{
+				cout << "NO\n";
+				goto lbl;
+			}
+		}
+		cout << "YES\n";
+	}
+	return 0;
+}
