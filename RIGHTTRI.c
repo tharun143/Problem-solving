@@ -6,7 +6,7 @@
     {
     	int m,h;
     	ll s,a,b;
-    	scanf("%d",&m);
+    	scanf("%d", &m);
     	while(m--)
     	{
     		scanf("%d%lld",&h,&s);
