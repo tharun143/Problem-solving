@@ -1,5 +1,5 @@
 # Problem-solving
-problems solved in c programming language
-questions are from code chef.
+Problems solved in c programming language
+questions are from codechef.
 happy coding!!!
 drug kills!!! But Code thrills!!!
