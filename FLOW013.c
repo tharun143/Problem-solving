@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-       scanf("%d %d %d\n",&a,&b,&c);
+       scanf("%d %d %d\n", &a, &b, &c);
        d=a+b+c;
     if(a!=0&&b!=0&&c!=0&&d==180)
     {
