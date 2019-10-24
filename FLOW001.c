@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-       scanf("%d %d\n",&a,&b);
+       scanf("%d %d\n", &a, &b);
     c=a+b;
     printf("%d\n",c);
     }
